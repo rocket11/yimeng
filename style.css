@@ -1,0 +1,91 @@
+@charset "utf-8";
+/*清楚默认样式*/
+*{margin: 0; padding: 0; list-style: none; border:0;}
+/*全局控制*/
+a{cursor: pointer;}
+.inner{width: 1000px; margin: 0 auto;}
+/*area1部分*/
+.area1{height: 573px; background: url(images/area_01.jpg) no-repeat top center;}
+.area1 .inner{height: 573px; background: url(images/area_01.jpg) no-repeat top center;}
+
+.area2{height: 503px; background: url(images/area_02.jpg) no-repeat top center;}
+.area2 .inner{height: 503px; background: url(images/area_02.jpg) no-repeat top center;}
+.side-l{width: 215px;height: 340px;padding-top: 77px;float: left;}
+.side-l li{width: 200px;padding: 10px 0 5px 10px;font:14px/20px "微软雅黑"; color: #fff;} 
+.side-c{width: 603px;height: 416px; float: left;}
+
+.nav{height: 78px;width: 603px; background:url(images/navBg.png) no-repeat 3px 0;}
+.area2Nav{float: left; display: block;height:78px; width:140px;}
+.nav-0{width: 183px;}
+.nav-1:hover{background: url(images/sprite.png) no-repeat 0 0;}
+.nav-2:hover{background: url(images/sprite.png) no-repeat -140px 0;}
+.nav-3:hover{background: url(images/sprite.png) no-repeat -280px 0;}
+
+.video{padding-left: 3px;}
+.side-r,.downlown{width: 182px; height: 113px; float: left; display: block;}
+.side-r a:hover{background: url(images/sprite.png) no-repeat -162px -108px;}
+
+/*area3*/
+.area3{height: 571px; background: url(images/area_03.jpg) no-repeat top center;}
+.area3 .inner{height: 571px; background: url(images/area_03.jpg) no-repeat top center;}
+
+/*area4*/
+.area4{height: 573px; background: url(images/area_04.jpg) no-repeat top center;}
+.area4 .inner{padding:180px 0 0 25px;height: 393px;  width:975px;background: url(images/area_04.jpg) no-repeat top center;}
+.box{width: 262px; height: 313px;float: left;}
+.boxHover{width: 202px; height: 303px;float: left; display: block;padding:10px 0 0 60px;}
+.boxInner{width: 127px; height: 39px; display: none;}
+.boxInner1{background: url(images/sprite.png) no-repeat 1px -87px;}
+.boxInner2{background: url(images/sprite.png) no-repeat 2px -134px;}
+.boxInner3{background: url(images/sprite.png) no-repeat 3px -188px; margin-left: 3px;}
+.boxHover:hover .boxInner{display: block;}
+
+.experience{width: 123px; height: 39px;display: block;float: left; margin: 132px 0 0 32px;}
+
+/*area5*/
+.area5{height: 663px; background: url(images/area_05.jpg) no-repeat top center;}
+.area5 .inner{padding:153px 0 0 20px; width:980px; height: 510px; background: url(images/area_05.jpg) no-repeat top center;}
+/*手风琴代码*/
+.container{width: 895px; height: 458px;}
+#centerwell { position: relative;height: 458px;overflow: hidden;}
+#centerwell li{width: 98px; height: 458px;float: left;overflow: hidden;cursor: pointer;}
+#centerwell h3{width: 98px; height: 458px; float: left;}
+#centerwell p {width: 470px;height: 353px;float: left; padding:105px 0 0 28px; font:20px/50px "微软雅黑";color:#fff;}
+#centerwell .yellow{ color: #f4cd54;}
+#centerwell li .current{width:596px;}
+.li01{background: url(images/sprite.png) no-repeat 0 -300px;}
+.li02{background: url(images/sprite.png) no-repeat -100px -300px;}
+.li03{background: url(images/sprite.png) no-repeat -200px -300px;}
+.li04{background: url(images/sprite.png) no-repeat -300px -300px;}
+
+
+
+
+/*area6*/
+.area6{height: 503px; background: url(images/area_06.jpg) no-repeat top center;}
+.area6 .inner{padding-top:163px;height: 340px; background: url(images/area_06.jpg) no-repeat top center;}
+
+.slidebox{width: 1000px;height: 290px; position: relative;}
+.slide{height: 278px; width:895px; overflow: hidden;position: relative; margin-left: 60px;}
+.slide ul img{vertical-align:middle;}
+.slide li{float: left; margin-right: 20px; cursor: pointer;}
+.slide ul{width: 4000px;position: absolute;}
+
+.ctrl{height: 131px; width: 99px; display: block;position: absolute;cursor: pointer;}
+.ctrlL{background: url(images/ctrlL.png) no-repeat;left: -17px; top: 70px;}
+.ctrlR{background: url(images/ctrlR.png) no-repeat;right: -28px; top: 70px;}
+
+
+/*footer*/
+.footer{height: 226px; background: url(images/area_07.jpg) no-repeat center top;}
+.footer .inner{height: 226px; background: url(images/area_07.jpg) no-repeat center top;}
+.downloadNow{height: 200px; width: 200px; float: right; display: block;margin-right: 103px;}
+
+/*side-nav*/
+.side-nav{padding:21px 0 0 10px;width: 100px; height: 280px; background: url(images/sprite.png) no-repeat -500px 0px; position: fixed;left: 50%; margin-left: 500px; top: 150px;display: none;}
+.side-nav-btn{width: 95px;height: 30px; display: block; margin-bottom: 16px;}
+.side-nav03{margin-bottom: 126px;}
+.side-nav01:hover{background: url(images/sprite.png) -659px 0px;}
+.side-nav02:hover{background: url(images/sprite.png) -659px -44px;}
+.side-nav03:hover{background: url(images/sprite.png) -661px -92px;}
+.side-nav04:hover{background: url(images/sprite.png) -661px -140px;}
